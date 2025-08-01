@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript Fundamentals Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>JavaScript</h1>
+    <button id="toggle-theme">Toggle Theme</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>JavaScript Basics</h2>
+      <p id="age-result">Click the button to check age group:</p>
+      <button onclick="checkAge()">Check Age</button>
+    </section>
+
+
+    <section>
+      <h2>Loops</h2>
+      <ul id="hobbies-list"></ul>
+      <button onclick="listHobbies()">Show My Hobbies</button>
+    </section>
+
+    <section>
+      <h2>DOM Interaction</h2>
+      <input type="text" id="nameInput" placeholder="Enter your name" />
+      <button onclick="greetUser()">Greet Me</button>
+      <p id="greeting"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 JavaScript Learning</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
